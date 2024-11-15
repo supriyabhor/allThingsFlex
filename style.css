@@ -1,0 +1,141 @@
+.flexContainer
+{
+    border: solid black;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.flexItem
+{
+    border: solid green;
+    height: 90px;
+    width: 90px;
+    
+}
+
+#b1
+{
+    background-color: green;
+}
+#b2
+{
+    background-color: yellow;
+}
+#b3
+{
+    background-color: lightpink;
+}
+#b4
+{
+    background-color: blue;
+}
+#b5
+{
+    background-color: red;
+}
+#b6
+{
+    background-color: peru;
+}
+#b7
+{
+    background-color: brown;
+}
+#b8
+{
+    background-color: grey;
+}
+
+.parentOne
+{
+    border: dotted red;
+    display: flex;
+    margin: 2em;
+    justify-content: space-between;
+}
+
+#el2
+{
+   margin-left: auto;
+}
+
+
+.parentTwo{
+    border: dotted red;
+    display: flex;
+    margin: 2em;
+}
+
+#el24
+{
+    margin-right: auto;
+}
+#act24
+{
+    margin-left: auto;
+}
+.parentThree{
+    border: dotted red;
+    display: flex;
+    margin: 2em;
+}
+#el31
+{
+   margin-left: auto;
+}
+#act32{
+    margin-right: auto;
+}
+#act34{
+    margin-left: auto;
+}
+
+.parentFour{
+    border: dotted red;
+    display: flex;
+    margin: 2em;
+    justify-content: center;
+}
+#act41{
+    margin-right: auto;
+}
+#act44{
+    margin-left: auto;
+}
+
+
+
+
+.kid
+{
+    border: solid black;
+    padding: 10px;
+   border-width: 2px;
+}
+
+  .flexContainer{
+    border: solid blue;
+    /* margin: 1em;
+    height: auto; */
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+
+.cardContainer
+{
+    border: 1px solid black;
+    /* height: auto; */
+    width: 250px;
+    /* margin: 1em; */
+    
+} 
+.cardimg
+{
+    max-width: 100%;
+    height: auto;
+   
+} 
+
+
